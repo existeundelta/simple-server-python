@@ -4,6 +4,8 @@ This is a simple skeleton Flask server project that works on any of the devices 
 
 This project simply serves up `"Hello World!"` on port `:80` of your resin device.
 
+And the temperature from the Sensor Hat in the `/temp` route.
+
 To get this project up and running, you will need to signup for a resin account [here][signup-page] and set up a device, have a look at our [Getting Started tutorial][gettingStarted-link]. Once you are set up with resin, you will need to clone this repo locally:
 ```
 $ git@github.com:vperezb/simple-server-python.git
