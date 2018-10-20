@@ -1,14 +1,14 @@
 ## A Simple Server with Python Flask
 
-This is a simple skeleton Flask server project that works on any of the devices supported by [balena][balena-link].
+This is a simple skeleton Flask server project that works on any of the devices supported by [resin][resin-link].
 
-This project simply serves up `"Hello World!"` on port `:80` of your balena device.
+This project simply serves up `"Hello World!"` on port `:80` of your resin device.
 
-To get this project up and running, you will need to signup for a balena account [here][signup-page] and set up a device, have a look at our [Getting Started tutorial][gettingStarted-link]. Once you are set up with balena, you will need to clone this repo locally:
+To get this project up and running, you will need to signup for a resin account [here][signup-page] and set up a device, have a look at our [Getting Started tutorial][gettingStarted-link]. Once you are set up with resin, you will need to clone this repo locally:
 ```
 $ git@github.com:vperezb/simple-server-python.git
 ```
-Then add your balena application's remote:
+Then add your resin application's remote:
 ```
 $ cd simple-server-python
 $ git remote add resin <USERNAME>@git.resin.io:<USERNAME>/<APPNAME>.git
@@ -31,6 +31,6 @@ Once the device is updated, you should see this in your logs:
 Then in your browser you should be able to open the device URL and see the message "Hello World!".
 
 
-[balena-link]:https://balena.io/
-[signup-page]:https://dashboard.balena-cloud.com/signup
-[gettingStarted-link]:http://balena.io/docs/learn/getting-started/
+[resin-link]:https://resin.io
+[signup-page]:https://dashboard.resin.io/login
+[gettingStarted-link]: https://docs.resin.io/learn/getting-started/raspberrypi3/python/
