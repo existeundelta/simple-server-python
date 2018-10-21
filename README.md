@@ -1,4 +1,5 @@
-## A Simple Server with Python Flask
+## A Simple Server with Python Flask and Resin
+### Forked from resin-io-projects/simple-server-python
 
 This is a simple skeleton Flask server project that works on any of the devices supported by [resin][resin-link].
 
